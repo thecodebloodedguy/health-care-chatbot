@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, how are you feeling today?",
+        "Hi there, hope you're feeling good today.",
+        "Hi! You are on time for your appointment"
+      ]
+    },
+    {
+      "tag": "positive",
+      "patterns":["good","healthy","fine"],
+      "responses":[
+        "Good to see that you are healthy!",
+        "Looks like your body is supporting you well",
+        "A healthy person lives a healthy life."
+      ]
+    },
+    {
+      "tag":"negative",
+      "patterns":["not good", "ill","not well"],
+      "responses":[
+        ":( let's get you some help",
+        "Looks like you might need some help",
+        "Hope you recover soon, let's get some help for you"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "What should I call you?",
+        "Who are you?",
+        "Can you tell me your name?"
+      ],
+      "responses": [
+        "You can call me Bisque",
+        "My name is Bisque",
+        "I'm Bisque"
+      ]
+    },
+    {
+      "tag": "purpose",
+      "patterns": [
+        "What can you do for me?",
+        "What can you help me with?",
+        "What can you do?"
+      ],
+      "responses": [
+        "I can help you with your career guidance",
+        "I can help you with your career guidcance",
+        "I can help in choosing your next career path"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "Are you happy that you were created?",
+        "Are you happy with your job?"
+      ],
+      "responses": [
+        "Yes! I love helping students like you in choosing their carrer",
+        "Yes! I love guiding students like you"
+      ]
+    },
+    {
+      "tag": "origin",
+      "patterns": [
+        "Who created you?",
+        "Who made you?",
+        "Are you a human?"
+      ],
+      "responses": [
+        "I was created by a team of four students",
+        "I was created by a team called Runtime Terror",
+        "I was created by four humans"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
